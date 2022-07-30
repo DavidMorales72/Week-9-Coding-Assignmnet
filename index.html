@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+<!--linked bootstrap-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<!--linked an external css style sheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+<!--linked an external google font to use in my h1-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+<!--created a navbar that is in all of the pages and it is resposive depending on the screen size-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" id="heads">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav" id="table-text">
+        <li class="active">
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="page2.html">About Shows</a>
+        </li>
+        <li>
+            <a href="page3.html">Newsletter</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<!--created a div and gave it the container class to be able to center it on the website-->
+<div class=container>
+    <div class="row justify-content-center">
+        <h1>Some of my favorite TV series that I have watched</h1>
+    </div>
+</div>
+<!--created a div container, it has a styled table inside-->
+<div id="table-text" class="container">
+    <!--the table has a class that has multiple properties to style it, those being hover, reflow, the color of the table and the borders-->
+    <table class="table table-hover table-reflow table-dark table-bordered">
+        <tr>
+        <th>Name of TV Series</th>
+        <th>Date First Released</th>
+        <th>Number of Seasons</th>
+    </tr>
+    <tr>
+        <td>Game Of Thrones</td>
+        <td>April 17, 2011</td>
+        <td>8 Seasons</td>
+    </tr>
+    <tr>
+        <td>The Boys</td>
+        <td>July 26, 2019</td>
+        <td>3 Seasons</td>
+    </tr>
+    <tr>
+        <td>Money Heist</td>
+        <td>May 2, 2017</td>
+        <td>5 Seasons</td>
+    </tr>
+    <tr>
+        <td>One Punch Man</td>
+        <td>October 4, 2015</td>
+        <td>2 Seasons</td>
+    </tr>
+    <tr>
+        <td>Attack On Titan</td>
+        <td>April 7, 2013</td>
+        <td>4 Seasons</td>
+    </tr>
+    </table>
+</div>
+
+<!--linked the script needed to be able to use bootstrap-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

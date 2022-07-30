@@ -1,0 +1,20 @@
+h1{
+    font-family: "Audiowide", sans-serif;
+}
+
+#heads{
+    font-family: "Audiowide", sans-serif;
+}
+
+#table-text{
+    font-family: Garamond, serif;
+}
+
+body{
+    background-color: beige;
+}
+
+#small-image{
+    height: 200px;
+    width: 200px;
+}
